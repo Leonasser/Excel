@@ -1,8 +1,6 @@
 ## Summary:
-- [English](#-English)
-* ### [Português](#-português-1)
-
-
+- [English](#english)
+- [Português](#português)
 
 ### English
 ### For tables with code and name columns
@@ -10,6 +8,7 @@
 "Code_Cell" is the referenced code in line<br>
 "Array" is the table with the code and names<br>
 The "Find" is optional for filtering multiple names, like "name1 - name2", change it to your needs
+
 ```
 =IFERROR(
     LEFT(
@@ -19,7 +18,6 @@ The "Find" is optional for filtering multiple names, like "name1 - name2", chang
     "Code Not Registered"
 )
 ```
-
 <br>
 <br>
 
